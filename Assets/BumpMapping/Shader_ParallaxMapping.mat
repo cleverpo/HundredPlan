@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader_ParallaxMapping
+  m_Shader: {fileID: 4800000, guid: 8b9aab6144e444f49895090c394c538a, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _ISRELIEF_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DepthMap:
+        m_Texture: {fileID: 2800000, guid: 9cc8d80a06df35c4b990cf974a81fb5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightMap:
+        m_Texture: {fileID: 2800000, guid: 9cc8d80a06df35c4b990cf974a81fb5f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 153c604bab8818f42aafc20c3207b6b4, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalMap:
+        m_Texture: {fileID: 2800000, guid: fa8224ca18995ba40b122eaa30e679b1, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _DepthMapScale: 0.1
+    - _Gloss: 255
+    - _Glossiness: 0.5
+    - _HeightMapScale: 0
+    - _Metallic: 0
+    - _NormalMapScale: 1
+    - _NormalMapStrength: 1
+    - _isOcclusion: 0
+    - _isRelief: 1
+    - _isSteep: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Diffuse: {r: 1, g: 1, b: 1, a: 1}
+    - _Specular: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []
